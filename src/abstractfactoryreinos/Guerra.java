@@ -14,6 +14,7 @@ import abstractfactoryreinos.Orcos.Orco;
  */
 public class Guerra {
     public static void main(String[] args) {
+        
         AbstractFactory guerra;
         
         guerra = FactoryProducer.getFactory("Orcos");
@@ -40,6 +41,9 @@ public class Guerra {
         elfo3.morir();
         elfo4.morir();
         elfo5.morir();
+        
+        System.out.println("Raul Antonio Granados Hernandez 00138816");
+        System.out.println("Daniel De Jesus Navarro         00110017");
         
         
         
